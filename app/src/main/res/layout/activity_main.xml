@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSeason"
+        style="@style/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="toFavSeason"
+        android:text="@string/btnSeason" />
+
+    <Button
+        android:id="@+id/btnPropsOfSesaon"
+        style="@style/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="toBestOf"
+        android:text="@string/btnPropsOfSeason" />
+
+    <Button
+        android:id="@+id/btnCount"
+        style="@style/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="countScreen"
+        android:text="@string/btnCount" />
+
+    <TextView
+        android:id="@+id/tvLastResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:gravity="center"
+        android:text="@string/tvLastResult"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ivRandomImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:contentDescription="@string/randomImage"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/random" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="popUp"
+        android:text="@string/btnDailyMessage" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gyak</string>
+    <string name="btnPropsOfSeason">Kedven évszak legjobbjai</string>
+    <string name="btnSeason">Kedvenc évszak</string>
+    <string name="btnCount">Számol</string>
+    <string name="tvLastResult">Utolsó eredmény</string>
+    <string name="randomImage">RandomKep</string>
+    <string name="btnDailyMessage">Napi üzenet</string>
+
+    <string-array name="favorites">
+        <item name="snow">Hó</item>
+        <item name="landscape">Táj</item>
+        <item name="skates">Korcsolya</item>
+    </string-array>
+</resources>

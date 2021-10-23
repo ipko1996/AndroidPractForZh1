@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pract</string>
+    <string name="btnPropsOfSeason">Favorite season\'s best</string>
+    <string name="btnSeason">Favorite season</string>
+    <string name="btnCount">Count</string>
+    <string name="tvLastResult">Last Result</string>
+    <string name="randomImage">RandomImage</string>
+    <string name="btnDailyMessage">Daily Message</string>
+
+    <string-array name="favorites">
+        <item name="snow">Snow</item>
+        <item name="landscape">Landscape</item>
+        <item name="skates">Skates</item>
+    </string-array>
+</resources>
